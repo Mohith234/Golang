@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	defer fmt.Println("World")
+	defer fmt.Println("World") // delay the execution of a function
 	defer fmt.Println("One")
 	defer fmt.Println("Two")
 	fmt.Println("Hello")
